@@ -67,8 +67,10 @@ body {
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);
 }er-radius: 0 40px 0 0;
-  }
-}
+ <button class="botao ativo">Tirar boas notas</button>
+<button class="botao">Me formar no ensino medio</button>
+<button class="botao">Ir bem no meu curso</button>
+<button class="botao">Adquirir novas esperiencias</button>
 .ativo {
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);

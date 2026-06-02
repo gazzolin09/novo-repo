@@ -61,49 +61,12 @@ body {
 @media screen and (min-width: 768px) {
   .botoes {
     display: flex;
+  }
 
-  .botao:last-child {
-    bord.ativo {
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
-}er-radius: 0 40px 0 0;
- <button class="botao ativo">Tirar boas notas</button>
-<button class="botao">Me formar no ensino medio</button>
-<button class="botao">Ir bem no meu curso</button>
-<button class="botao">Adquirir novas esperiencias</button>
-.ativo {
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
-} 
-.abas-textos {
-  background-color: var(--texto-fundo);
-  padding: 40px;
-  border-radius: 0 0 40px 40px;
-}
-.botao.ativo {
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
-}
-.aba-conteudo {
-  display: none;
-}
-.aba-conteudo-titulo-principal {
-  font-size: 28px;
-  text-align: center;
-}
-.aba-conteudo-titulo-secundario {
-  text-align: center;
-  color: var(--verde);
-  text-transform: uppercase;
-}
-.aba-conteudo-titulo-principal {
-  font-size: 28px;
-  text-align: center;
-}
-.aba-conteudo-titulo-secundario {
-  text-align: center;
-  color: var(--verde);
-  text-transform: uppercase;
-}
-  };
-}
+  .botao:first-child{
+    border-radius: 40px 0px 0 0;
+  }
+
+  .botao:last-child{
+    border-radius: 0 40px 0 0;
+  }

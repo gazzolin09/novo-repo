@@ -141,3 +141,17 @@ body {
   text-align: center;
   min-width: 100px;
 }
+if (tempoFinal > 0) {
+  return (
+    dias +
+    " dias " +
+    horas +
+    " horas " +
+    minutos +
+    " minutos " +
+    segundos +
+    " segundos"
+  );
+} else {
+  return [0, 0, 0, 0];
+}

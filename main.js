@@ -59,4 +59,10 @@ function calculaTempo(tempoObjetivo) {
     <p class="contador-digito-texto">seg</p>
   </div>
 </div>
+comecaCronometro();
+function atualizaCronometro() {
+  for (let i = 0; i < contadores.length; i++) {
+    //contadores[i].textContent = calculaTempo(tempos[i]);
+  }
+}
 </div >
